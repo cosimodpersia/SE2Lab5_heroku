@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({
 //JSON post
 app.use(bodyParser.json());
 
-app.set('port', (process.env.PORT || 1337));
+app.set('port', (process.env.PORT || 5000));
 
 app.use('/client.html', function (req, res) {
     res.sendFile(__dirname + "/client.html");
