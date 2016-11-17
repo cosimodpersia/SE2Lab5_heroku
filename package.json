@@ -1,0 +1,25 @@
+{
+  "name": "cosimo",
+  "version": "1.0.0",
+  "description": "esercitazione di laboratorio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodejs index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosimodpersia/SE2Lab5_heroku.git"
+  },
+  "author": "cosimo damiano persia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cosimodpersia/SE2Lab5_heroku/issues"
+  },
+  "homepage": "https://github.com/cosimodpersia/SE2Lab5_heroku#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "util": "^0.10.3"
+  }
+}
